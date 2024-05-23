@@ -1,0 +1,156 @@
+# Angular Interview Questions
+
+This markdown file contains a comprehensive list of Angular interview questions covering various topics, from basic concepts to advanced techniques. Whether you're preparing for an Angular interview or looking to strengthen your Angular skills, these questions will help you assess and deepen your understanding of Angular development.
+
+## Angular CLI
+1. What is Angular CLI? Explain its role in Angular development.
+2. List some commands provided by Angular CLI and explain their usage.
+3. How does Angular CLI simplify the process of creating and managing Angular applications?
+4. How would you customize the default configuration provided by Angular CLI for a specific project?
+5. Explain the process of integrating third-party libraries or frameworks into an Angular project using Angular CLI.
+6. Discuss the benefits and drawbacks of using Angular CLI for large-scale enterprise applications.
+
+## Building Blocks of Angular
+1. What are the key building blocks of Angular applications?
+2. Explain the role of NgModule in Angular applications.
+3. Describe the significance of components and services in Angular development.
+4. Describe the concept of lazy loading modules in Angular and explain its advantages in large-scale applications.
+5. Discuss the role of entry components in Angular modules and their significance in dynamic component creation.
+6. How would you handle shared functionality or services across multiple Angular modules in an application?
+
+## Life Cycle Hooks
+1. What are Angular lifecycle hooks? List some commonly used lifecycle hooks and explain their purposes.
+2. Differentiate between ngOnInit and constructor lifecycle hooks.
+3. How would you handle cleanup operations in Angular using lifecycle hooks?
+4. Explain the order of execution of Angular lifecycle hooks and how it can impact component behavior.
+5. Discuss scenarios where you would use ngOnDestroy lifecycle hook and best practices for cleanup operations.
+6. How would you handle asynchronous operations within Angular lifecycle hooks, such as fetching data from an API?
+
+## Components
+1. What is a component in Angular?
+2. Explain the component architecture and its advantages.
+3. Describe the process of creating and using components in Angular applications.
+4. Describe strategies for optimizing the performance of Angular components, especially in scenarios involving heavy rendering or data manipulation.
+5. Discuss techniques for structuring large-scale Angular applications with complex component hierarchies for maintainability and scalability.
+6. How do you handle cross-component communication in Angular applications, especially when components are not directly related?
+
+## Binding
+1. What is data binding in Angular?
+2. Explain the different types of data binding supported in Angular.
+3. Compare and contrast one-way and two-way data binding in Angular.
+4. Explain the concept of property binding and how it differs from interpolation in Angular templates.
+5. Discuss the role of event binding in Angular applications and provide examples of scenarios where it is useful.
+6. How would you implement two-way data binding in custom Angular components, ensuring data integrity and performance?
+
+## Directives
+1. What are directives in Angular?
+2. Differentiate between structural and attribute directives.
+3. Provide examples of built-in directives in Angular and explain their usage.
+4. Describe the process of creating custom structural directives in Angular and provide examples of their usage.
+5. Discuss the performance implications of using structural directives extensively in Angular templates and strategies for optimization.
+6. How would you implement a custom attribute directive in Angular to manipulate the DOM or modify component behavior?
+
+## Pipes
+1. What are pipes in Angular?
+2. Explain the purpose of built-in pipes and how to create custom pipes.
+3. Discuss the usage of pipes for data transformation and formatting in Angular applications.
+4. Explain the difference between pure and impure pipes in Angular and when you would choose one over the other.
+5. Discuss strategies for creating efficient custom pipes in Angular, considering factors like performance and reusability.
+6. How do you handle localization and internationalization (i18n) in Angular applications using pipes?
+
+## Forms
+1. How does Angular handle forms?
+2. Explain the different types of forms supported in Angular.
+3. Describe the process of form validation and error handling in Angular applications.
+4. Discuss the advantages and disadvantages of template-driven forms versus reactive forms in Angular applications.
+5. How would you implement custom form validators in Angular for validating complex user input?
+6. Describe techniques for handling form submission and data persistence in Angular applications, especially with reactive forms.
+
+## Templates
+1. What are Angular templates?
+2. Explain the role of template syntax in Angular applications.
+3. Discuss the use of template expressions and template statements in Angular templates.
+4. Explain the concept of template reference variables in Angular and provide examples of their usage in templates.
+5. Discuss the role of ng-template and ng-container directives in Angular templates and their benefits.
+6. How do you handle template-driven logic in Angular applications, ensuring separation of concerns and maintainability?
+
+## Modules
+1. What is an NgModule in Angular?
+2. Explain the purpose of NgModule and its components.
+3. Describe the process of organizing Angular applications using modules.
+4. Describe strategies for organizing Angular modules in large-scale applications for better maintainability and scalability.
+5. How would you implement lazy loading for feature modules in Angular applications, ensuring optimal performance and user experience?
+6. Discuss the use of NgModule providers and providedIn syntax for dependency injection in Angular modules.
+
+## Services
+1. What are services in Angular?
+2. Explain the significance of services in Angular architecture.
+3. Discuss the various ways of creating and consuming services in Angular applications.
+4. Explain the singleton pattern used by Angular services and discuss its implications for data sharing and state management.
+5. How would you handle dependency injection for services with dependencies on other services or external dependencies?
+6. Discuss techniques for testing Angular services, including mocking dependencies and handling asynchronous operations.
+
+## Dependency Injection
+1. What is dependency injection (DI) in Angular?
+2. Explain how DI works in Angular and its benefits.
+3. Describe the process of implementing DI in Angular applications.
+4. Describe the role of the Injector hierarchy in Angular dependency injection and how it resolves dependencies across modules.
+5. Discuss strategies for optimizing dependency injection performance in Angular applications, especially in scenarios with deep dependency trees.
+6. How do you handle circular dependencies in Angular services and components, and what are the best practices for avoiding them?
+
+## Routing
+1. What is routing in Angular?
+2. Explain the role of the Angular Router module.
+3. Discuss how to configure and use routing in Angular applications.
+4. Explain the concept of router guards in Angular and how you would use them to implement authentication and authorization logic.
+5. Discuss techniques for lazy loading routes in Angular applications and their impact on initial page load times.
+6. How would you implement route resolvers in Angular to prefetch data before activating a route, ensuring a seamless user experience?
+
+## Decorators
+1. What are decorators in Angular?
+2. Explain the purpose of decorators in Angular applications.
+3. Provide examples of commonly used decorators in Angular and explain their usage.
+4. Describe the role of decorators in Angular and how they are used to enhance class functionality and metadata.
+5. Discuss the process of creating custom decorators in Angular and provide examples of their usage in real-world scenarios.
+6. How do you handle decorator-based dependency injection in Angular services and components, and what are the benefits over traditional DI syntax?
+
+## RxJS
+1. What is RxJS and how does it relate to Angular?
+2. Explain the concept of observables and observers in RxJS.
+3. Discuss the usage of RxJS operators for data transformation and asynchronous programming in Angular applications.
+4. Explain the concept of higher-order observables in RxJS and how you would use them to compose complex asynchronous operations.
+5. Discuss common anti-patterns to avoid when working with RxJS in Angular applications, such as nested subscriptions and memory leaks.
+6. How do you handle error handling and retry strategies with RxJS observables in Angular applications, ensuring robustness and reliability?
+7. What are the pros and cons of RxJS?
+8. How do you transform data in RxJS?
+9. How does the filter operator work in RxJS?
+10. How do you implement error handling in RxJS?
+11. What does the combineLatest operator work in?
+12. Explain how Subject and BehaviorSubject work in RxJS.
+13. What is the difference between Observables and Promises?
+14. What is the difference between cold and hot observables?
+15. Explain the differences between ConcatMap, SwitchMap, and MergeMap operators in RxJS.
+
+## Additional Topics
+### General Angular Concepts
+1. What is a Single Page Application (SPA)?
+2. What are the pros and cons of Angular?
+3. How does Angular work?
+4. Sharing data between components in Angular.
+5. What ways of binding are available in Angular?
+
+### HTTP Requests and Error Handling
+1. How to make HTTP Request in Angular?
+2. How to handle errors in async pipe in Angular?
+
+### Animations and Views
+1. How to create an Angular animation?
+2. What are ViewChild and ViewChildren?
+
+### Lifecycle and Change Detection
+1. Constructor vs NgOnInit in Angular
+2. Unsubscribe in Angular - why is it important?
+3. What are change detection and onPush?
+
+### Compilation
+1. AOT vs JIT compilation.
